@@ -56,11 +56,11 @@ if (!isset($_SESSION['user_login'])) {
         </div>
               <div class="mb-3 d-flex justify-content-center">
                <input type="text" name="q" required class="form-control w-50" placeholder="ระบุชื่อสินค้าที่ต้องการค้นหา" value="<?php if (isset($_POST['q'])) { echo $_POST['q'];}?>">
-              
-              <div class="col-2 col-sm-1"> 
-                <a  href="user.php" class="btn btn-warning mx-3 " >Reset</a>
+        </div>
+              <div class="d-grid gap-2 w-50" style="margin:auto;"> 
+                <a  href="user.php" class="btn btn-warning mx-3 btn-block " >Reset</a>
                 <button type="submit" class="btn btn-primary mx-3">Search</button>
-                </div>
+                </div><br><br>
                 </form>
         </div>       
         
